@@ -1,3 +1,18 @@
+# RELATED WORK
+
+## REVOL 2020
+*Prédiction de la difficulté de compréhension des contenus audiovisuels*
+Prediction without machine learning: another method
+Translating syntactic and lexical rules to python functions.
+ 	| Syntax | Lexicon |
+| ----------- | ----------- |
+| More than 60 syntactic rules regarding pronums, adverbs, verbs etc... | FLELex CRF (François et al., 2014). More than 14'000 words for each level |
+
+
+### References
+- [*Prédiction de la difficulté de compréhension des contenus audiovisuels*](https://dumas.ccsd.cnrs.fr/dumas-02992702)
+
+
 
 ## ReaderBench
 C'est un framework python pour déterminer la complexité de textes dans plusieurs langues
