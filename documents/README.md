@@ -1,8 +1,8 @@
 # RELATED WORK
 
-## REVOL 2020
-*Prédiction de la difficulté de compréhension des contenus audiovisuels*
-Prediction without machine learning: another method
+## REVOL 2020: *Prédiction de la difficulté de compréhension des contenus audiovisuels*
+
+An entirely different approach: prediction without machine learning.
 Translating syntactic and lexical rules to python functions.
  	| Syntax | Lexicon |
 | ----------- | ----------- |
@@ -15,9 +15,8 @@ Translating syntactic and lexical rules to python functions.
 
 
 ## ReaderBench
-C'est un framework python pour déterminer la complexité de textes dans plusieurs langues
-https://github.com/readerbench/ReaderBench
+ReaderBench is a Python framework to assess texts' complexity in many natural languages. The project is hosted on [Github](https://github.com/readerbench/ReaderBench) and referenced in [many articles](https://scholar.google.ch/scholar?hl=fr&as_sdt=0%2C5&q=readerbench&btnG=&oq=readerbe). 
 
-### Références
+### References
 - [ReaderBench: A Multi-lingual Framework for Analyzing Text Complexity](https://hal.archives-ouvertes.fr/hal-01584870/file/ec-tel-17-1-demo.pdf)
 - [ReaderBench goes Online: A Comprehension-Centered Framework for Educational Purposes](https://core.ac.uk/download/pdf/55539385.pdf)
