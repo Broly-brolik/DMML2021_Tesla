@@ -8,6 +8,17 @@ Translating syntactic and lexical rules to python functions.
 | ----------- | ----------- |
 | More than 60 syntactic rules regarding pronums, adverbs, verbs etc... | FLELex CRF (François et al., 2014). More than 14'000 words for each level |
 
+**Example: a function to classify a text in B2 difficulty if the text contains more than 13 words.**
+```
+def avg_length(x):
+	lengthList = [len(s) for s in x.doc.sents] # avec docs.sents = phrase du document
+	avgLength = sum(lengthList) / len(lengthList)
+	if avgLength > 13:
+		return B2
+	else:
+		return ABSTAIN
+```` 
+
 
 ### References
 - [*Prédiction de la difficulté de compréhension des contenus audiovisuels*](https://dumas.ccsd.cnrs.fr/dumas-02992702)
