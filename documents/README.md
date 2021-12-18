@@ -6,7 +6,7 @@ An entirely different approach: prediction without machine learning.
 Translating syntactic and lexical rules to python functions.
  	| Syntax | Lexicon |
 | ----------- | ----------- |
-| More than 60 syntactic rules regarding pronums, adverbs, verbs etc... | FLELex CRF (François et al., 2014). More than 14'000 words for each level |
+| More than 60 syntactic rules regarding pronums, adverbs, verbs etc... | FLELex CRF (François et al., 2014). More than 14'000 words for each level. Word frequency count.  |
 
 **Example: a function to classify a text in B2 difficulty if the text contains more than 13 words.**
 ```
