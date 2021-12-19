@@ -27,7 +27,7 @@ Finally, our best model was the logistic regression with Doc2Vec. In fact, we ob
 Here are the different results from the different model. The results are based on models that were trained in the train splitted data from train_data.
 The baseline is 0.17
 
-mettre tableau
+![table_summary](https://github.com/Broly-brolik/DMML2021_Tesla/tree/main/documents/Table_summary.png)
 
 Conclusion:
 
