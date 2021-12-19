@@ -13,3 +13,22 @@ Have a look at the:
 You will find an actual link to our Jupityer notebook at the [code section](https://github.com/Broly-brolik/DMML2021_Tesla/tree/main/code).  
 The data is accessible in the [folder of the same name](https://github.com/Broly-brolik/DMML2021_Tesla/tree/main/data).  
 Some other solutions in Python language but in a different approach with other libraries can be found in the [document folder](https://github.com/Broly-brolik/DMML2021_Tesla/tree/main/documents).
+
+We proceeded following these steps:
+
+1) Take the training set, split it 80-20, train models on the train set and test it on the test set. But, then, when we train the model to submit on kaggle we can use all the dataset to train,
+
+2) Calculate the baseline and all 4 precisions (of 4 models), then vary the parameters to optimize i
+
+3) Then, use a model (or combinaison of many) after doing some data cleaning (e.g. removing stop words, lemmatization, tokenization, etc...) and compute the precision.
+
+Finally, our best model was the logistic regression with Doc2Vec. In fact, we obtained a better socre in Kagglw when training the model only in the splitted trained set from train_data than when training in all data from train_data.
+
+Here are the different results from the different model. The results are based on models that were trained in the train splitted data from train_data.
+The baseline is 0.17
+
+mettre tableau
+
+Conclusion:
+
+Our final model is quite better than the baseline. However, it could be improved using, for example, neural networks.
